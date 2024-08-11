@@ -58,6 +58,10 @@ typedef struct wav_header {
 // functions
 int encode_wave_file(char* inFileName, char* outFileName, bool encodeType);
 
+void compress_wave_data(unsigned char *inputfile_data_buffer, unsigned char *output_file_data_buffer, int overall_size);
+
+void decompress_wave_data(unsigned char *inputfile_data_buffer, unsigned char *output_file_data_buffer, int overall_size);
+
 
 
 #endif 

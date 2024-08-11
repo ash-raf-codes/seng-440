@@ -40,8 +40,8 @@ int main(int argc, char **argv)
 
         strcat(inFileName, "/");
         strcat(inFileName, argv[1]);
-        strcat(compressedFileName, "/compressed.wav");
-        strcat(decompressedFileName, "/decompressed.wav");
+        strcat(compressedFileName, "/decompressed.wav");
+        strcat(decompressedFileName, "/compressed.wav");
 
         start = clock();
 
