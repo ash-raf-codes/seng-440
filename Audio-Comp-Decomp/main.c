@@ -16,11 +16,11 @@ int main(int argc, char **argv)
     char *compressedFileName;
     char *decompressedFileName;
 
-    inFileName = (char *)malloc(sizeof(char) * 1024);
-    compressedFileName = (char *)malloc(sizeof(char) * 1024);
-    decompressedFileName = (char *)malloc(sizeof(char) * 1024);
+    inFileName = (char *)malloc(sizeof(char) * 2048);
+    compressedFileName = (char *)malloc(sizeof(char) * 2048);
+    decompressedFileName = (char *)malloc(sizeof(char) * 2048);
 
-    char cwd[1024];
+    char cwd[2048];
 
     if (getcwd(cwd, sizeof(cwd)) != NULL)
     {

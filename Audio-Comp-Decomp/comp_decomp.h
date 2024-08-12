@@ -25,6 +25,6 @@ int codeword_compression(int sample_magnitude, int sign);
 
 int codeword_decompression(int codeWord);
 
-int Test(int sample);
+//int Test(int sample);
 
 #endif
