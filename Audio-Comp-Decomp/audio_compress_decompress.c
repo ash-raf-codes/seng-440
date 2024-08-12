@@ -144,6 +144,7 @@ int codeword_decompression(int codeWord)
     int magnitude = add_ones_on_either_side | step_shifted_by_chord;
     int finalVal = sign_Most_Sig_Bit | magnitude;
 
+    /* For Testing only */
     // if (DEBUG)
     // {
 
@@ -190,12 +191,10 @@ int signum(int sample)
 {
     if (sample > 8192)
     {
-        //debug_print("\nNegative\n");
         return (1); /* sign is ’0’ for negative samples */
     }
     else
     {
-        //debug_print("\nPositive\n");
         return (0); /* sign is ’1’ for positive samples */
     }
 }
@@ -206,7 +205,6 @@ int magnitude(int sample)
     {
         sample = -sample;
     }
-    //debug_print("Magnatude: %d", sample);
     return (sample);
 }
 
