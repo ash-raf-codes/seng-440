@@ -28,8 +28,8 @@ int main(int argc, char **argv)
         strcpy(inFileName, cwd);
         strcpy(compressedFileName, cwd);
         strcpy(decompressedFileName, cwd);
+        
         // get inFileName from command line
-
         if (argc < 2)
         {
 

@@ -1,5 +1,5 @@
-#ifndef READ_WAV_H
-#define READ_WAV_H
+#ifndef READ_WAVE_FILE_H
+#define READ_WAVE_FILE_H
 
 
 #include <stdint.h> 
